@@ -1,0 +1,111 @@
+body {
+            margin: 0;
+            font-family: 'Merriweather', serif;
+            background-color: #121212;
+            color: white;
+        }
+
+        header {
+            background-color: #1e1e1e;
+            padding: 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        nav a {
+            color: #ccc;
+            text-decoration: none;
+            margin: 0 15px;
+            font-weight: 500;
+        }
+
+        nav a:hover {
+            color: #00d8ff;
+        }
+
+        .hero {
+            background: url("./main.jpg");
+            height: 90vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 48px;
+            margin: 0;
+        }
+
+        .hero p {
+            font-size: 20px;
+            margin: 10px 0 30px;
+        }
+
+        .btn {
+            padding: 12px 25px;
+            font-size: 16px;
+            background-color: #00d8ff;
+            color: black;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        .btn:hover {
+            background-color: #00b7d3;
+        }
+
+        section.form-section {
+            padding: 50px 20px;
+            background-color: #1a1a1a;
+            text-align: center;
+            display: none;
+        }
+
+        form {
+            max-width: 400px;
+            margin: auto;
+        }
+
+        label {
+            display: block;
+            text-align: left;
+            margin-bottom: 5px;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"],
+        input[type="tel"] {
+            width: 100%;
+            padding: 10px;
+            background: #2c2c2c;
+            color: white;
+            border: none;
+            margin-bottom: 20px;
+        }
+
+        footer {
+            background-color: #1e1e1e;
+            text-align: center;
+            padding: 15px;
+            font-size: 14px;
+            color: #aaa;
+        }
+
+        select {
+    width: 100%;
+    padding: 10px;
+    background: #2c2c2c;
+    color: white;
+    border: none;
+    margin-bottom: 20px;
+}
