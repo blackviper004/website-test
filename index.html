@@ -43,40 +43,25 @@
     <!-- Register Section -->
     <section id="register" class="form-section">
         <h2>Register for Membership</h2>
-        <form onsubmit="return registerUser()">
-            <label for="fullname">Full Name*</label>
-            <input type="text" id="fullname" required>
-
-            <label for="email">Email ID*(College Id)</label>
-            <input type="email" id="email" required>
-
-            <label for="department">Department *</label>
-<select id="department" required>
-    <option value="">Select Department</option>
-    <option value="ECE">Electronics & Communication Engineering</option>
-    <option value="EEE">Electrical & Electronics Engineering</option>
-    <option value="ECEVLSI">Electronics (VLSI)</option>
-    <option value="ECEACT">Electronics & Communication Engineering(ACT)</option>
-    </select>
-
-<label for="year">Year of Study</label>
-<select id="year">
-    <option value="">Select Year</option>
+        <form action="YOUR_WEB_APP_URL" method="POST">
+  <input name="fullName" placeholder="Full Name" required />
+  <input name="email" type="email" placeholder="Email" required />
+  <select name="department" required>
+    <option value="ECE">ECE</option>
+    <option value="CSE">CSE</option>
+    <!-- Add more departments -->
+  </select>
+  <select name="year" required>
     <option value="1st Year">1st Year</option>
     <option value="2nd Year">2nd Year</option>
     <option value="3rd Year">3rd Year</option>
-    
-</select>
+    <option value="4th Year">4th Year</option>
+  </select>
+  <input name="usn" placeholder="USN" required />
+  <input name="phone" type="tel" placeholder="Phone Number" required />
+  <button type="submit">Register</button>
+</form>
 
-
-            <label for="usn">USN *</label>
-            <input type="text" id="usn" required>
-
-            <label for="phone">Phone Number (WhatsApp only) *</label>
-            <input type="tel" id="phone" required>
-
-            <button type="submit" class="btn">Register</button>
-        </form>
     </section>
 
     <footer>
