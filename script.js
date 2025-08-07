@@ -22,7 +22,7 @@ function toggleSection(id) {
         }
 
         
-    const scriptURL = 'https://script.google.com/macros/s/AKfycbx6OOlZLffItkF-7UsSVpgqf3AbL8PP1KZtGKs7usjx2mfImgRKCiShnRj0WJMGmeUE4Q/exec';
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbysivuW_SzxXSU_Cs2FGuj6OrI5rEhNdgu6WUlXOaUr24sD94Aipt6qi7Jc1Y25Ni2XYQ/exec';
 
     function registerUser() {
         const fullname = document.getElementById("fullname").value.trim();
